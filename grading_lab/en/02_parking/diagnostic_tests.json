@@ -1,0 +1,17 @@
+[
+  {
+    "case_id": "D01",
+    "stdin": "119\n",
+    "expected_stdout": "60\n"
+  },
+  {
+    "case_id": "D02",
+    "stdin": "481\n",
+    "expected_stdout": "160\n"
+  },
+  {
+    "case_id": "D03",
+    "stdin": "541\n",
+    "expected_stdout": "160\n"
+  }
+]

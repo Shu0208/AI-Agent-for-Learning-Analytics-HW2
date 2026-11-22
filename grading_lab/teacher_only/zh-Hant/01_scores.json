@@ -1,0 +1,1097 @@
+[
+  {
+    "submission": "S01",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "完整處理空資料、門檻及格式。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S02",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "逐項累加，可正確處理重複值。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S03",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "空資料會除以零；非空資料仍可正常計算。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "runtime_error",
+        "error": "ZeroDivisionError: division by zero"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "runtime_error",
+        "error": "ZeroDivisionError: division by zero"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S04",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "恰好 60 分被排除於及格人數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 0\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S05",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "平均使用整數除法，遺失小數部分。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.00 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.00 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.00 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S06",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "只讀第一行，多行資料被截斷。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "1 100.00 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "1 90.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S07",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "去重後再計算，使重複成績消失。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "2 50.00 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S08",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "數值大致正確，輸出少一位小數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.0 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.0 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.0 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.0 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.0 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.0 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.3 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.5 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.3 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 50.0 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.0 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.0 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.0 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S09",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "用真假值過濾時把合法的零分移除。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "2 80.00 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "3 66.67 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S10",
+    "official_passes": 3,
+    "functional_points": 18,
+    "diagnosis": "第三欄計算未及格人數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.00 0\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.00 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.33 3\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 0\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S11",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "平均除以固定值 100。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 2.40 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.60 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.80 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.80 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.60 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.59 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 0.70 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 2.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.20 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.20 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S12",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "欄位間使用逗號。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3,80.00,3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "0,0.00,0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1,60.00,1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1,0.00,0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3,60.00,2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3,60.00,2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3,53.33,2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2,79.50,1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3,23.33,0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4,50.00,2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "0,0.00,0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2,60.00,2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2,60.00,1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S13",
+    "official_passes": 4,
+    "functional_points": 24,
+    "diagnosis": "計算及格時漏掉最後一筆。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.00 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.50 0\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 50.00 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S14",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "輸出敘述缺少右括號，整份檔案無法解析。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T02",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T03",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T04",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T05",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T06",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T07",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T08",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T09",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T10",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D01",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D02",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D03",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      }
+    ]
+  },
+  {
+    "submission": "S15",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "使用標準函式庫與獨立函式，符合題目。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  }
+]

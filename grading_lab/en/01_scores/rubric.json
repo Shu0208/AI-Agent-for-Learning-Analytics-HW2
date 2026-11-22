@@ -1,0 +1,22 @@
+[
+  {
+    "criterion": "Functional correctness",
+    "points": 60,
+    "guidance": "Each of the ten official cases is worth 6 points. Diagnostic probes do not affect the score."
+  },
+  {
+    "criterion": "Algorithm",
+    "points": 25,
+    "guidance": "Assess the main algorithm (15) and boundary handling (10). Use source and test evidence to award partial credit."
+  },
+  {
+    "criterion": "Specification",
+    "points": 10,
+    "guidance": "Standard input and full input scope (5); required output format (5)."
+  },
+  {
+    "criterion": "Readability",
+    "points": 5,
+    "guidance": "Clear names (2) and understandable control flow (3). A concise, clear solution can earn full marks."
+  }
+]

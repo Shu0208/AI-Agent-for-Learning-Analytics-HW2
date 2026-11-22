@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "T01",
+    "stdin": "red red blue\n",
+    "expected_stdout": "red 2\n"
+  },
+  {
+    "case_id": "T02",
+    "stdin": "",
+    "expected_stdout": "NONE 0\n"
+  },
+  {
+    "case_id": "T03",
+    "stdin": "123...!!\n",
+    "expected_stdout": "NONE 0\n"
+  },
+  {
+    "case_id": "T04",
+    "stdin": "Cat cat CAT dog",
+    "expected_stdout": "cat 3\n"
+  },
+  {
+    "case_id": "T05",
+    "stdin": "zoo ant",
+    "expected_stdout": "ant 1\n"
+  },
+  {
+    "case_id": "T06",
+    "stdin": "red,red;blue",
+    "expected_stdout": "red 2\n"
+  },
+  {
+    "case_id": "T07",
+    "stdin": "sun2moon2moon",
+    "expected_stdout": "moon 2\n"
+  },
+  {
+    "case_id": "T08",
+    "stdin": "up\ndown down\n",
+    "expected_stdout": "down 2\n"
+  },
+  {
+    "case_id": "T09",
+    "stdin": "b B a A",
+    "expected_stdout": "a 2\n"
+  },
+  {
+    "case_id": "T10",
+    "stdin": "a an an and and and",
+    "expected_stdout": "and 3\n"
+  }
+]

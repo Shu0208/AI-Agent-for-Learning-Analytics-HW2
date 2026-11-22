@@ -1,0 +1,1090 @@
+[
+  {
+    "submission": "S01",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "按各時段累加並套用上限。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S02",
+    "official_passes": 6,
+    "functional_points": 36,
+    "diagnosis": "不足一小時的餘數被捨去。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S03",
+    "official_passes": 6,
+    "functional_points": 36,
+    "diagnosis": "整點也多收一小時，0 分鐘也收費。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S04",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "高額費用未套用 160 元上限。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "310\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "170\n"
+      }
+    ]
+  },
+  {
+    "submission": "S05",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "逐小時累加，正確處理跨段收費。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S06",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "把 0 分鐘也當作一小時。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S07",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "第 3～5 小時使用了第一段費率。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "90\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S08",
+    "official_passes": 6,
+    "functional_points": 36,
+    "diagnosis": "用最後時段的單價回算全部時數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "100\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "90\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "90\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "100\n"
+      }
+    ]
+  },
+  {
+    "submission": "S09",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "最後一段少算一小時。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S10",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "把最高收費設成 150 元。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      }
+    ]
+  },
+  {
+    "submission": "S11",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "金額前多印貨幣符號。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "$60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "$0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "$30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "$30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "$60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "$80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "$120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "$130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "$160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "$160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "$60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "$160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "$160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S12",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "分段公式與無條件進位正確。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "80\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "130\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      }
+    ]
+  },
+  {
+    "submission": "S13",
+    "official_passes": 6,
+    "functional_points": 36,
+    "diagnosis": "剩餘 1～59 分鐘時迴圈沒有減少分鐘數，會逾時。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "timeout"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "timeout"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "30\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "timeout"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "120\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "timeout"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "timeout"
+      },
+      {
+        "case_id": "D02",
+        "status": "timeout"
+      },
+      {
+        "case_id": "D03",
+        "status": "timeout"
+      }
+    ]
+  },
+  {
+    "submission": "S14",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "未將輸入字串轉成整數，第一步加法即出錯。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T02",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T03",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T04",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T05",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T06",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T07",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T08",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T09",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "T10",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "D01",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "D02",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      },
+      {
+        "case_id": "D03",
+        "status": "runtime_error",
+        "error": "TypeError: can only concatenate str (not \"int\") to str"
+      }
+    ]
+  },
+  {
+    "submission": "S15",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "前兩小時誤用中段費率。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "40\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "20\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "20\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "40\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "60\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "100\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "110\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "140\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "160\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "40\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "140\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "150\n"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "case_id": "D01",
+    "stdin": "one_two_one",
+    "expected_stdout": "one 2\n"
+  },
+  {
+    "case_id": "D02",
+    "stdin": "x-ray X",
+    "expected_stdout": "x 2\n"
+  },
+  {
+    "case_id": "D03",
+    "stdin": "Zebra zoo zebra Zoo",
+    "expected_stdout": "zebra 2\n"
+  }
+]

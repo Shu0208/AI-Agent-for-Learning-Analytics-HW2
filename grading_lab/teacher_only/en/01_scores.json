@@ -1,0 +1,1097 @@
+[
+  {
+    "submission": "S01",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Handles empty data, threshold and formatting.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S02",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Single-pass accumulation preserves duplicates.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S03",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "Empty input divides by zero; nonempty inputs work.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "runtime_error",
+        "error": "ZeroDivisionError: division by zero"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "runtime_error",
+        "error": "ZeroDivisionError: division by zero"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S04",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "Excludes a score of exactly 60 from the passing count.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 0\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S05",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "Floor division drops the fractional part of the mean.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.00 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.00 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.00 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S06",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "Reading a single line drops subsequent scores.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "1 100.00 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "1 90.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S07",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "Deduplicating scores changes the count and weighted mean.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "2 50.00 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S08",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "The mean is printed to one decimal place instead of two.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.0 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.0 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.0 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.0 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.0 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.0 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.3 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.5 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.3 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 50.0 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.0 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.0 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.0 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S09",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "A truthiness filter discards valid zero scores.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "2 80.00 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "3 66.67 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S10",
+    "official_passes": 3,
+    "functional_points": 18,
+    "diagnosis": "The third field counts failing scores.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.00 0\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.00 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 23.33 3\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 0\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S11",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "The divisor is fixed at 100 regardless of the number of scores.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 2.40 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 0.60 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.80 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.80 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 1.60 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.59 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3 0.70 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 2.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.20 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 1.20 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S12",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "Uses commas between fields.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3,80.00,3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "0,0.00,0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1,60.00,1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "1,0.00,0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3,60.00,2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "3,60.00,2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3,53.33,2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2,79.50,1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "3,23.33,0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4,50.00,2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "0,0.00,0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2,60.00,2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2,60.00,1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S13",
+    "official_passes": 4,
+    "functional_points": 24,
+    "diagnosis": "The pass count skips the last score.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "3 80.00 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "1 60.00 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "3 60.00 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "3 53.33 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 79.50 0\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "4 50.00 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 60.00 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S14",
+    "official_passes": 0,
+    "functional_points": 0,
+    "diagnosis": "The print call lacks a closing parenthesis, preventing parsing.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T02",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T03",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T04",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T05",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T06",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T07",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T08",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T09",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "T10",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D01",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D02",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      },
+      {
+        "case_id": "D03",
+        "status": "syntax_error",
+        "error": "SyntaxError: '(' was never closed"
+      }
+    ]
+  },
+  {
+    "submission": "S15",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Uses a helper and the standard library correctly.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "3 80.00 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "1 60.00 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "1 0.00 0\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "3 60.00 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "3 53.33 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "2 79.50 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "3 23.33 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "4 50.00 2\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "0 0.00 0\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "2 60.00 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "2 60.00 1\n"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1097 @@
+[
+  {
+    "submission": "S01",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "正確分詞、計數並處理同票。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S02",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "同票時保留最早出現的單字。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "zoo 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "b 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S03",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "只依空白分詞，標點和數字會留在詞內。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "123...!! 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "red,red;blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun2moon2moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one_two_one 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "x 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S04",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "沒有統一大小寫，導致同詞被拆成多個計數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "CAT 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "A 1\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "X 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "Zebra 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S05",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "把數字視為單字的一部分。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "123 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun2moon2moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S06",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "只統計第一行資料。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "up 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S07",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "使用字典累計，再從最高頻候選中取字母順序最前者。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S08",
+    "official_passes": 3,
+    "functional_points": 18,
+    "diagnosis": "先轉集合，所有詞頻都變成一。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "cat 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "down 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "zebra 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S09",
+    "official_passes": 4,
+    "functional_points": 24,
+    "diagnosis": "排序方向相反，選到最低頻的詞。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "dog 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "up 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "two 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S10",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "空詞集仍呼叫 min，拋出 ValueError。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "runtime_error",
+        "error": "ValueError: min() iterable argument is empty"
+      },
+      {
+        "case_id": "T03",
+        "status": "runtime_error",
+        "error": "ValueError: min() iterable argument is empty"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S11",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "輸出欄位順序相反。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "2 red\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "3 cat\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "1 ant\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "2 red\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "2 moon\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 down\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "2 a\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "3 and\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "2 one\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 x\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 zebra\n"
+      }
+    ]
+  },
+  {
+    "submission": "S12",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "單字長度為一時被忽略。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S13",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "無單字時的標記大小寫錯誤。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "none 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "none 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S14",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "以字元迭代分詞，排序後保留第一個最高頻詞。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S15",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "找到正確單字，但回報所有單字的總數。",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "red 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "cat 4\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "ant 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "red 3\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "moon 3\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "down 3\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "a 4\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "and 6\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one 3\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "x 3\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "zebra 4\n"
+      }
+    ]
+  }
+]

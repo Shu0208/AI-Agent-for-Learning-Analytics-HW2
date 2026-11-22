@@ -1,0 +1,1097 @@
+[
+  {
+    "submission": "S01",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Correct tokenization, counting and tie-breaking.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S02",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "Picks the first encountered word on a tie.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "zoo 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "b 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S03",
+    "official_passes": 7,
+    "functional_points": 42,
+    "diagnosis": "Splitting on whitespace leaves digits and punctuation in tokens.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "123...!! 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "red,red;blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun2moon2moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one_two_one 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "x 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S04",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "Case-sensitive keys split counts for the same word.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "CAT 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "A 1\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "X 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "Zebra 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S05",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "Treats digits as word characters.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "123 1\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun2moon2moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S06",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "Only the first line contributes to the counts.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "up 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S07",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Uses a dictionary and resolves ties among the most frequent words.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S08",
+    "official_passes": 3,
+    "functional_points": 18,
+    "diagnosis": "Converting to a set erases repeats.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "cat 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "moon 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "down 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "zebra 1\n"
+      }
+    ]
+  },
+  {
+    "submission": "S09",
+    "official_passes": 4,
+    "functional_points": 24,
+    "diagnosis": "Ranks words by ascending frequency.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "dog 1\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "blue 1\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "sun 1\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "up 1\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "a 1\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "two 1\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S10",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "Calls min on an empty set of candidates.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "runtime_error",
+        "error": "ValueError: min() iterable argument is empty"
+      },
+      {
+        "case_id": "T03",
+        "status": "runtime_error",
+        "error": "ValueError: min() iterable argument is empty"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S11",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "Prints the count before the word.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "2 red\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "3 cat\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "1 ant\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "2 red\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "2 moon\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "2 down\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "2 a\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "3 and\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "2 one\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "2 x\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "2 zebra\n"
+      }
+    ]
+  },
+  {
+    "submission": "S12",
+    "official_passes": 9,
+    "functional_points": 54,
+    "diagnosis": "Drops single-letter words.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "ray 1\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S13",
+    "official_passes": 8,
+    "functional_points": 48,
+    "diagnosis": "Uses lowercase for the required empty marker.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "wrong_output",
+        "actual_stdout": "none 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "wrong_output",
+        "actual_stdout": "none 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S14",
+    "official_passes": 10,
+    "functional_points": 60,
+    "diagnosis": "Tokenizes character by character and scans sorted candidates.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "pass",
+        "actual_stdout": "cat 3\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "pass",
+        "actual_stdout": "ant 1\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "pass",
+        "actual_stdout": "red 2\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "pass",
+        "actual_stdout": "moon 2\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "pass",
+        "actual_stdout": "down 2\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "pass",
+        "actual_stdout": "a 2\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "pass",
+        "actual_stdout": "and 3\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "pass",
+        "actual_stdout": "one 2\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "pass",
+        "actual_stdout": "x 2\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "pass",
+        "actual_stdout": "zebra 2\n"
+      }
+    ]
+  },
+  {
+    "submission": "S15",
+    "official_passes": 2,
+    "functional_points": 12,
+    "diagnosis": "Finds the right word but reports the total token count.",
+    "results": [
+      {
+        "case_id": "T01",
+        "status": "wrong_output",
+        "actual_stdout": "red 3\n"
+      },
+      {
+        "case_id": "T02",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T03",
+        "status": "pass",
+        "actual_stdout": "NONE 0\n"
+      },
+      {
+        "case_id": "T04",
+        "status": "wrong_output",
+        "actual_stdout": "cat 4\n"
+      },
+      {
+        "case_id": "T05",
+        "status": "wrong_output",
+        "actual_stdout": "ant 2\n"
+      },
+      {
+        "case_id": "T06",
+        "status": "wrong_output",
+        "actual_stdout": "red 3\n"
+      },
+      {
+        "case_id": "T07",
+        "status": "wrong_output",
+        "actual_stdout": "moon 3\n"
+      },
+      {
+        "case_id": "T08",
+        "status": "wrong_output",
+        "actual_stdout": "down 3\n"
+      },
+      {
+        "case_id": "T09",
+        "status": "wrong_output",
+        "actual_stdout": "a 4\n"
+      },
+      {
+        "case_id": "T10",
+        "status": "wrong_output",
+        "actual_stdout": "and 6\n"
+      },
+      {
+        "case_id": "D01",
+        "status": "wrong_output",
+        "actual_stdout": "one 3\n"
+      },
+      {
+        "case_id": "D02",
+        "status": "wrong_output",
+        "actual_stdout": "x 3\n"
+      },
+      {
+        "case_id": "D03",
+        "status": "wrong_output",
+        "actual_stdout": "zebra 4\n"
+      }
+    ]
+  }
+]

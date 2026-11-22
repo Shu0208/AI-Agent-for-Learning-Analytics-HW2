@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "T01",
+    "stdin": "80 70 90\n",
+    "expected_stdout": "3 80.00 3\n"
+  },
+  {
+    "case_id": "T02",
+    "stdin": "",
+    "expected_stdout": "0 0.00 0\n"
+  },
+  {
+    "case_id": "T03",
+    "stdin": "60\n",
+    "expected_stdout": "1 60.00 1\n"
+  },
+  {
+    "case_id": "T04",
+    "stdin": "0\n",
+    "expected_stdout": "1 0.00 0\n"
+  },
+  {
+    "case_id": "T05",
+    "stdin": "59 60 61\n",
+    "expected_stdout": "3 60.00 2\n"
+  },
+  {
+    "case_id": "T06",
+    "stdin": "80 80 20\n",
+    "expected_stdout": "3 60.00 2\n"
+  },
+  {
+    "case_id": "T07",
+    "stdin": "100\n0\n60\n",
+    "expected_stdout": "3 53.33 2\n"
+  },
+  {
+    "case_id": "T08",
+    "stdin": "59 100\n",
+    "expected_stdout": "2 79.50 1\n"
+  },
+  {
+    "case_id": "T09",
+    "stdin": "10 20 40\n",
+    "expected_stdout": "3 23.33 0\n"
+  },
+  {
+    "case_id": "T10",
+    "stdin": "  99   1  0  100  \n",
+    "expected_stdout": "4 50.00 2\n"
+  }
+]

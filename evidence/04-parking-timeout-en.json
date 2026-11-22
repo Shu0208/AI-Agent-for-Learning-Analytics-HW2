@@ -1,0 +1,256 @@
+{
+  "run_id": "20261120T090843Z-830b5525c3c3",
+  "started": "2026-11-20T09:08:43.428220+00:00",
+  "task": "02_parking",
+  "language": "en",
+  "submission": "S13.py",
+  "sha256": "dbd424e04b6a8ec7b0c910ff5568afc6b65dc2ac63c43271e3fcb3195b7b8a41",
+  "model": "llama3.2:3b",
+  "ollama_url": "http://host.containers.internal:11434",
+  "max_checks": 2,
+  "trace": [
+    {
+      "type": "user_input",
+      "task": "02_parking",
+      "submission": "S13.py",
+      "language": "en"
+    },
+    {
+      "type": "event",
+      "event": "decision",
+      "by": "workflow",
+      "action": "run_official",
+      "reason": "Apply identical official cases before diagnostic checks."
+    },
+    {
+      "type": "tool_call",
+      "name": "run_official",
+      "case_id": null
+    },
+    {
+      "type": "observation",
+      "observation": [
+        {
+          "case_id": "T01",
+          "stdin": "61\n",
+          "expected_stdout": "60\n",
+          "status": "timeout",
+          "detail": "Student exceeded 2 seconds."
+        },
+        {
+          "case_id": "T02",
+          "stdin": "0\n",
+          "expected_stdout": "0\n",
+          "status": "pass",
+          "actual_stdout": "0\n"
+        },
+        {
+          "case_id": "T03",
+          "stdin": "1\n",
+          "expected_stdout": "30\n",
+          "status": "timeout",
+          "detail": "Student exceeded 2 seconds."
+        },
+        {
+          "case_id": "T04",
+          "stdin": "60\n",
+          "expected_stdout": "30\n",
+          "status": "pass",
+          "actual_stdout": "30\n"
+        },
+        {
+          "case_id": "T05",
+          "stdin": "120\n",
+          "expected_stdout": "60\n",
+          "status": "pass",
+          "actual_stdout": "60\n"
+        },
+        {
+          "case_id": "T06",
+          "stdin": "121\n",
+          "expected_stdout": "80\n",
+          "status": "timeout",
+          "detail": "Student exceeded 2 seconds."
+        },
+        {
+          "case_id": "T07",
+          "stdin": "300\n",
+          "expected_stdout": "120\n",
+          "status": "pass",
+          "actual_stdout": "120\n"
+        },
+        {
+          "case_id": "T08",
+          "stdin": "301\n",
+          "expected_stdout": "130\n",
+          "status": "timeout",
+          "detail": "Student exceeded 2 seconds."
+        },
+        {
+          "case_id": "T09",
+          "stdin": "540\n",
+          "expected_stdout": "160\n",
+          "status": "pass",
+          "actual_stdout": "160\n"
+        },
+        {
+          "case_id": "T10",
+          "stdin": "1440\n",
+          "expected_stdout": "160\n",
+          "status": "pass",
+          "actual_stdout": "160\n"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "event": "decision",
+      "by": "model",
+      "action": "inspect_T03",
+      "reason": "Grade the cause of the failed official case after inspecting the input and traceback or output."
+    },
+    {
+      "type": "tool_call",
+      "name": "inspect_case",
+      "case_id": "T03"
+    },
+    {
+      "type": "observation",
+      "observation": {
+        "case_id": "T03",
+        "stdin": "1\n",
+        "expected_stdout": "30\n",
+        "status": "timeout",
+        "detail": "Student exceeded 2 seconds."
+      }
+    },
+    {
+      "type": "event",
+      "event": "decision",
+      "by": "model",
+      "action": "inspect_T01",
+      "reason": "Failed official case to inspect for clear cause of failure."
+    },
+    {
+      "type": "tool_call",
+      "name": "inspect_case",
+      "case_id": "T01"
+    },
+    {
+      "type": "observation",
+      "observation": {
+        "case_id": "T01",
+        "stdin": "61\n",
+        "expected_stdout": "60\n",
+        "status": "timeout",
+        "detail": "Student exceeded 2 seconds."
+      }
+    },
+    {
+      "type": "event",
+      "event": "decision",
+      "by": "model",
+      "action": "grade",
+      "reason": "Inspect the failed official case T03 to determine the cause of the timeout error."
+    }
+  ],
+  "result": {
+    "official_passes": 6,
+    "official_count": 10,
+    "functional_points": 36,
+    "status": "proposed",
+    "evidence_id": "T01",
+    "observation": "T01: input '61\\n', execution status timeout, recorded detail: Student exceeded 2 seconds.",
+    "cited_source": "L4: while minutes > 0:",
+    "source_basis": "model",
+    "algorithm": {
+      "points": 20,
+      "main": 12,
+      "boundary": 8,
+      "reason": "Main approach is mostly correct but could be improved by using a more efficient data structure."
+    },
+    "specification": {
+      "points": 9,
+      "reason": "The specification is clear and well-defined."
+    },
+    "readability": {
+      "points": 3,
+      "reason": "The code could benefit from more comments and clearer variable names."
+    },
+    "feedback": "Trace loop conditions, variable updates and input reads on this case. Verify that the program terminates within the time limit.",
+    "total": 68
+  },
+  "finished": "2026-11-20T09:08:56.686122+00:00",
+  "test_results": [
+    {
+      "case_id": "T01",
+      "stdin": "61\n",
+      "expected_stdout": "60\n",
+      "status": "timeout",
+      "detail": "Student exceeded 2 seconds."
+    },
+    {
+      "case_id": "T02",
+      "stdin": "0\n",
+      "expected_stdout": "0\n",
+      "status": "pass",
+      "actual_stdout": "0\n"
+    },
+    {
+      "case_id": "T03",
+      "stdin": "1\n",
+      "expected_stdout": "30\n",
+      "status": "timeout",
+      "detail": "Student exceeded 2 seconds."
+    },
+    {
+      "case_id": "T04",
+      "stdin": "60\n",
+      "expected_stdout": "30\n",
+      "status": "pass",
+      "actual_stdout": "30\n"
+    },
+    {
+      "case_id": "T05",
+      "stdin": "120\n",
+      "expected_stdout": "60\n",
+      "status": "pass",
+      "actual_stdout": "60\n"
+    },
+    {
+      "case_id": "T06",
+      "stdin": "121\n",
+      "expected_stdout": "80\n",
+      "status": "timeout",
+      "detail": "Student exceeded 2 seconds."
+    },
+    {
+      "case_id": "T07",
+      "stdin": "300\n",
+      "expected_stdout": "120\n",
+      "status": "pass",
+      "actual_stdout": "120\n"
+    },
+    {
+      "case_id": "T08",
+      "stdin": "301\n",
+      "expected_stdout": "130\n",
+      "status": "timeout",
+      "detail": "Student exceeded 2 seconds."
+    },
+    {
+      "case_id": "T09",
+      "stdin": "540\n",
+      "expected_stdout": "160\n",
+      "status": "pass",
+      "actual_stdout": "160\n"
+    },
+    {
+      "case_id": "T10",
+      "stdin": "1440\n",
+      "expected_stdout": "160\n",
+      "status": "pass",
+      "actual_stdout": "160\n"
+    }
+  ]
+}
